@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* border: 4px solid red; */
+    margin: 5px;
+    /* height: 1000px; */
+    /* width: 300px;
+    height: 800px; */
+    padding: 10px;
+    display: flex;
+     /* flex-direction:column */
+flex-wrap:wrap; 
+ /* justyfy containt is for main axis or width  */
+/* flex-flow: row-reverse; */
+/* justify-content: space-around; */
+/* justify-content: space-between; */
+/* justify-content: space-evenly; */
+/* align item for cross axuis or height */
+    /* align-items: center; */
+/* align-items: flex-end; */
+ /* justify-content:center;row */
+/* justify-items: flex-end ; */
+/* align-content:space-around;column */
+}
+.box{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    border: 2px solid blue;
+   
+    background-color:aquamarine;
+    margin: 4px;
+    font-size: 24px;
+    font-weight: 900;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+/* #box2 ,#box3 ,#box5{
+    flex-grow: 1;*/
+
+#box1{
+   flex-basis: 200px;
+   height: 75%;
+}
+#box4{
+    flex-grow: 200px;
+}
+ #box6{
+    flex-basis: 100%;
+    height: 45%;
+ }
+ #box2{
+    flex-basis: 80%;
+    height: 78%;
+ }
+ #box5{
+    flex-basis: 85%;
+ }

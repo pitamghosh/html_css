@@ -1,0 +1,19 @@
+*{
+    /* uiversal margin: ; */
+    margin: 0;
+}
+.nav{
+    background-color: aquamarine;
+    text-align: center;
+    list-style-type: none;
+}
+
+.nav li{
+    display:inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+a:hover{
+    text-decoration:none;
+    color: black;
+}

@@ -1,0 +1,43 @@
+/* CLASS SELECTOR */
+/* 
+.html{
+    color: brown;
+}
+.css{
+    color:cyan;
+}
+.jss{
+    color:darkgreen;
+}  */
+
+/* ID SELECTOR */
+/* 
+#html{
+    color: rgb(147, 42, 165);
+}
+#css{
+    color:rgb(2, 31, 31);
+}
+#js{
+    color:rgb(100, 88, 0);
+}  */
+
+
+/* attribute selector */
+/* li[class="js"]
+{
+    background-color: cornflowerblue;
+}
+
+/* combinator selector */
+/* ul p{
+    color: red;
+}  */
+
+/* pseudo selector */
+h1:hover{
+    color: lime;
+    background-color:gold;
+}
+
+
